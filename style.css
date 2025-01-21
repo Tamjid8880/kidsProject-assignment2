@@ -128,6 +128,7 @@ nav {
 
 .btn-secondary {
     background: rgb(17, 17, 17);
+    margin-bottom: 20px;
 }
 
 
@@ -480,4 +481,55 @@ nav {
     width: 75px;
     margin-top: 80px;
     padding: 5px;
+}
+
+@media screen and (max-width:576px) {
+    .nav-about,
+    .nav-btn {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-img {
+        height: 400px;
+        width: 5000px;
+    }
+    .banner-about {}
+    .btn-primary {
+        margin-bottom: 20px;
+    }
+    .curriculum {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .curri-title {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .curri-container {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .btn-third,
+    .stories-img-1 {
+        display: none;
+    }
+    .stories-img-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-btn {
+        flex-direction: column;
+        justify-content: left;
+        padding: 30px 50px;
+    }
+    .footer-education {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
