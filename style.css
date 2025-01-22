@@ -8,6 +8,14 @@
             margin-top: 20px;
         }
         
+        .marque {
+            color: rgb(254, 163, 1);
+            font-family: Quicksand;
+            font-size: 1.8rem;
+            font-weight: 600;
+            padding: 10px;
+        }
+        
         .mobile-menu {
             display: none;
         }
@@ -390,6 +398,20 @@
         .btn-stories {
             margin-top: -900px;
             margin-left: 25px;
+        }
+        
+        .stories-btn-1 {
+            background-color: rgb(60, 216, 232)
+        }
+        
+        .stories-btn-2,
+        .stories-btn-4,
+        .stories-btn-5 {
+            background-color: rgb(149, 178, 38)
+        }
+        
+        .stories-btn-3 {
+            background-color: rgb(93, 88, 240)
         }
         /* style of footer section */
         
